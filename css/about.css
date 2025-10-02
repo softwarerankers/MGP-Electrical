@@ -1,0 +1,257 @@
+/*
+Template Name: Electrician
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************about****************/
+.main_about {
+background-image: url(../img/16.jpg);
+background-position: center;
+}
+.about_pg1lil span{
+width:100px;
+height:100px;
+line-height:100px; 
+ }
+#contact_h .about_pg1lil span{
+width:80px;
+height:80px;
+line-height:80px; 
+ }
+.main_serv {
+background-image: url(../img/28.jpg);
+background-position: center;
+}
+
+.process_1l{
+padding:50px 40px;
+min-height:450px; 
+ }
+ 
+.main_team {
+background-image: url(../img/30.jpg);
+background-position: center;
+}
+.main_price {
+background-image: url(../img/34.jpg);
+background-position: center;
+}
+.main_appoint {
+background-image: url(../img/35.jpg);
+background-position: center;
+}
+.appoint_o .appoint_1l {
+min-height:760px; 
+ }
+.main_faq {
+background-image: url(../img/37.jpg);
+background-position: center;
+}
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.about_pg1l{
+text-align:center; 
+ }
+.about_pg1l .font_50{
+font-size:36px!important;
+ }
+.about_pg1lir{
+margin-top:15px; 
+ }
+.about_pg1lir p{
+text-align:left;
+ }
+.about_pg1ril{
+margin-top:15px;
+margin-bottom:15px; 
+ }
+.contact_hr{
+margin-top:15px;  
+ }
+.appoint_1r {
+padding:0!important; 
+margin-top:15px;
+text-align:center;
+margin-bottom:15px;
+ }
+.appoint_1l{
+margin-bottom:15px;
+ }
+.appoint_1r p{
+text-align:left;
+ }
+.visit_1l { 
+text-align:center; 
+ }
+.visit_1r {
+padding:15px!important;
+padding-bottom:45px!important;
+text-align:center; 
+ }
+.testim_1i1{
+text-align:left; 
+ }
+.serv_h1  .font_50{
+font-size:36px!important; 
+ }
+.serv_h1  p{
+text-align:left;
+ }
+.faq_1r{
+margin-top:15px; 
+ }
+.process_1l  .font_50{
+font-size:36px!important; 
+ }
+.process_1l .button{
+padding:15px 15px;
+font-size:14px; 
+ }
+.process_1l .button_1{
+padding:15px 15px; 
+font-size:14px;
+ }
+.process_1l li{
+margin:0!important;
+ }
+.process_1l {
+padding: 50px 15px;
+min-height:auto;
+margin-bottom:15px;
+}
+.process_1  .pe-0{
+padding-right:12px!important; 
+ }
+.process_1  .ps-0{
+padding-left:12px!important; 
+ }
+.process_1r img{
+height:auto; 
+ }
+.price_1i {
+margin-top:8px;
+margin-bottom:8px;
+text-align:center; 
+ }
+.price_1i ul{
+padding:10px!important;
+text-align:left; 
+ }
+.visit_1lil{
+margin-top:10px; 
+ }
+.appoint_o .appoint_1l {
+min-height:auto;
+text-align:center; 
+ }
+.appoint_o .appoint_1r img {
+height:auto; 
+ }
+.appoint_o .appoint_1l .button_1{
+padding:15px 20px; 
+ }
+
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+.about_pg1l .font_50{
+font-size:36px!important; 
+ }
+.about_pg1l p{
+font-size:14px; 
+ }
+.about_pg1lil span {
+width: 60px;
+height: 60px;
+line-height: 60px;
+}
+.about_pg1r img{
+height:560px; 
+ }
+.contact_hr img{
+height:450px;  
+ }
+#contact_h .about_pg1lil span {
+width: 50px;
+height: 50px;
+line-height: 50px;
+font-size:20px!important;
+}
+.appoint_1l img{
+min-height:350px; 
+ }
+.appoint_1r {
+padding:30px!important; 
+ }
+.visit_1r {
+padding-left:10px!important;
+padding-right:10px!important; 
+ }
+.faq_1l img{
+min-height:450px;  
+ }
+.process_1l .button{
+padding:15px 15px;
+font-size:14px; 
+ }
+.process_1l .button_1{
+padding:15px 15px; 
+font-size:14px;
+ }
+.process_1l {
+padding: 50px 15px;
+margin-bottom:15px;
+}
+.appoint_o .appoint_1r {
+padding:0!important; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.about_pg1l .font_50{
+font-size:45px!important; 
+ }
+
+.about_pg1lil span {
+width: 80px;
+height: 80px;
+line-height: 80px;
+}
+.about_pg1r img{
+height:560px; 
+ }
+#contact_h .about_pg1lil span {
+width: 70px;
+height: 70px;
+line-height: 70px;
+font-size:24px!important;
+}
+.appoint_1l img{
+min-height:350px; 
+ }
+.contact_hr img{
+height:450px;  
+ }
+.visit_1r {
+padding-left:10px!important;
+padding-right:10px!important; 
+ }
+.faq_1l img{
+min-height:450px;  
+ }
+ }
+@media (min-width:1201px) and (max-width:1270px) {
+
+ }
+
+
+

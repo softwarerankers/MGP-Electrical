@@ -1,0 +1,164 @@
+/*
+Template Name: Electrician
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************blog****************/
+.main_blog {
+background-image: url(../img/22.jpg);
+background-position: center;
+}
+.social_tag a {
+width: 45px;
+height: 45px;
+line-height: 45px;
+transition: 0.3s;
+background: #32383e;
+color: #fff;
+}
+.social_tag a:hover {
+background:#ff7617;
+color:#fff;
+}
+.tags a {
+padding: 7px 15px;
+background: #fff;
+display: block;
+margin: 3px 2px 3px 0;
+transition: 0.3s;
+}
+.tags a:hover {
+background:#ff7617;
+color:#fff;
+}
+.main_blog_dt {
+background-image: url(../img/26.jpg);
+background-position: center;
+}
+
+.about_pg1lil span {
+width: 80px;
+height: 80px;
+line-height: 80px;
+}
+.main_cont {
+background-image: url(../img/27.jpg);
+background-position: center;
+}
+/*********************blog_end****************/
+
+
+@media screen and (max-width : 767px){
+.blog_1l1 img{
+width:150px; 
+height:150px;
+ }
+.blog_1l1 p{
+text-align:left;
+ }
+.blog_1l1 h4{
+text-align:center; 
+ }
+.blog_1r{
+margin-top:15px; 
+ }
+.blog_dtop .blog_h1i{
+margin-top:0;
+margin-bottom:0; 
+ }
+.blog_dt1i1 {
+text-align:center; 
+ }
+.blog_dt1i1r {
+text-align:center!important;
+margin-top:15px; 
+ }
+.blog_dt2  h3{
+text-align:center; 
+ }
+.blog_dt2 .blog_h1i{
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.blog_dt3  h3{
+text-align:center; 
+ }
+.blog_dt3ir{
+margin-top:15px; 
+text-align:center; 
+ }
+.blog_dt3ir p{
+text-align:left; 
+ }
+.blog_dt4  {
+text-align:center; 
+ }
+.blog_dt4 p {
+text-align:left; 
+ }
+.blog_dt4il{
+margin-top:10px; 
+ }
+.contact_1l{
+text-align:center; 
+ }
+.contact_1l .visit_1lil{
+ margin-top:10px;
+ }
+.contact_1r{
+margin-top:15px; 
+text-align:center;  
+ }
+.contact_1r p{
+text-align:left; 
+ }
+.about_pg1lir{
+margin-top:15px;  
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+.blog_dt3ir{
+margin-top:0; 
+text-align:left; 
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.blog_1l1 img{
+width:150px; 
+height:150px;
+ }
+.social_tag a {
+width: 35px;
+height: 35px;
+line-height: 35px;
+}
+.blog_1r1il img{
+ height:auto;
+ }
+.about_pg1lil span {
+width: 50px;
+height: 50px;
+line-height: 50px;
+font-size:22px!important;
+}
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.about_pg1lil span {
+width: 60px;
+height: 60px;
+line-height: 60px;
+font-size:22px!important;
+}
+ }
+@media (min-width:1201px) and (max-width:1270px) {
+
+ }
+
+
+
